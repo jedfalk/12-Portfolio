@@ -5,19 +5,19 @@ function Projects() {
     <div>
       <h2>My Projects</h2>
       <Project
-        title="Portfolio Website"
-        description="A personal portfolio built with React."
-        link="https://your-portfolio-link.com"
+        title="ReadMe Generator"
+        description="A command line app that generates a ReadMe file based on user input."
+        link="https://github.com/jedfalk/Readme-Generator"
       />
       <Project
-        title="ToDo App"
-        description="A task management app with add/edit/delete functionality."
-        link="https://your-todo-app-link.com"
+        title="Vehicle Builder"
+        description="A command line app that lets the user build a vehicle and perform actions with it."
+        link="https://github.com/jedfalk/8-Vehicle-Builder"
       />
       <Project
-        title="Weather Dashboard"
-        description="Displays real-time weather info using an API."
-        link="https://your-weather-app-link.com"
+        title="Pets-Who"
+        description="A group project that lets users see different types of birds and has a quiz to test your knowledge of the birds."
+        link="https://github.com/Falmanza94/pets-who"
       />
     </div>
   );
