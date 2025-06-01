@@ -1,6 +1,7 @@
+// src/components/Project.jsx
 function Project({ title, description, link }) {
   return (
-    <div className="project-card" style={{ border: "1px solid #ccc", padding: "1rem", margin: "1rem 0" }}>
+    <div className="project-card">
       <h3>{title}</h3>
       <p>{description}</p>
       {link && (

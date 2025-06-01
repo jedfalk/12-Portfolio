@@ -1,0 +1,77 @@
+/* Ensure html, body, root take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #007BFF; 
+  color: white;
+  line-height: 1.6;
+}
+
+/* Flex container to push footer to bottom */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Main content grows to fill available space */
+.content {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+/* Navbar styling */
+nav {
+  background-color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #cce5ff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #99ccff;
+}
+
+/* Footer styling */
+footer {
+  background-color: black;
+  color: #cce5ff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%; /* full width */
+  margin-top: auto; /* optional safe fallback */
+}
+
+/* Project card styling */
+.project-card {
+  background: #004080;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #0059b3;
+}
+
+.project-card a {
+  color: #a3d1ff;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: #d6eaff;
+}

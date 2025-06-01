@@ -8,13 +8,17 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Navbar />
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }
